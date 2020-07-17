@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "todowebApp"
+    }
+  },
+  "defaultProject": "todowebApp",
+  "cli": {
+    "analytics": "50bc0af2-7528-4ccf-8778-a6434deae296"
+  }
 }

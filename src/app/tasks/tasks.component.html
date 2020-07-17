@@ -1,0 +1,10 @@
+
+title:<input type="text" [(ngModel)]= "newTask.title">
+Descrption:<input type="text" [(ngModel)] = "newTask.description">
+
+<button (click)="createTask()" >create</button>
+
+<div *ngFor="let t of tasks">
+  <div>{{t.title}}</div>
+<div>{{t.description}}</div>
+</div>
